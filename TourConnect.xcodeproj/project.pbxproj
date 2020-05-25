@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE1131A247C106900BA6C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11319247C106900BA6C1B /* AppDelegate.swift */; };
+		BCE1131C247C106900BA6C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1131B247C106900BA6C1B /* SceneDelegate.swift */; };
+		BCE1131E247C106900BA6C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1131D247C106900BA6C1B /* ViewController.swift */; };
+		BCE11321247C106900BA6C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE1131F247C106900BA6C1B /* Main.storyboard */; };
+		BCE11323247C106B00BA6C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE11322247C106B00BA6C1B /* Assets.xcassets */; };
+		BCE11326247C106B00BA6C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE11324247C106B00BA6C1B /* LaunchScreen.storyboard */; };
+		BCE11331247C106C00BA6C1B /* TourConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11330247C106C00BA6C1B /* TourConnectTests.swift */; };
+		BCE1133C247C106C00BA6C1B /* TourConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1133B247C106C00BA6C1B /* TourConnectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE1132D247C106C00BA6C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE1130E247C106900BA6C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE11315247C106900BA6C1B;
+			remoteInfo = TourConnect;
+		};
+		BCE11338247C106C00BA6C1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE1130E247C106900BA6C1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE11315247C106900BA6C1B;
+			remoteInfo = TourConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE11316247C106900BA6C1B /* TourConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE11319247C106900BA6C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE1131B247C106900BA6C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCE1131D247C106900BA6C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCE11320247C106900BA6C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCE11322247C106B00BA6C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE11325247C106B00BA6C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE11327247C106B00BA6C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE1132C247C106C00BA6C1B /* TourConnectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourConnectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE11330247C106C00BA6C1B /* TourConnectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourConnectTests.swift; sourceTree = "<group>"; };
+		BCE11332247C106C00BA6C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE11337247C106C00BA6C1B /* TourConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE1133B247C106C00BA6C1B /* TourConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourConnectUITests.swift; sourceTree = "<group>"; };
+		BCE1133D247C106C00BA6C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE11313247C106900BA6C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE11329247C106C00BA6C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE11334247C106C00BA6C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE1130D247C106900BA6C1B = {
+			isa = PBXGroup;
+			children = (
+				BCE11318247C106900BA6C1B /* TourConnect */,
+				BCE1132F247C106C00BA6C1B /* TourConnectTests */,
+				BCE1133A247C106C00BA6C1B /* TourConnectUITests */,
+				BCE11317247C106900BA6C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE11317247C106900BA6C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11316247C106900BA6C1B /* TourConnect.app */,
+				BCE1132C247C106C00BA6C1B /* TourConnectTests.xctest */,
+				BCE11337247C106C00BA6C1B /* TourConnectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE11318247C106900BA6C1B /* TourConnect */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11319247C106900BA6C1B /* AppDelegate.swift */,
+				BCE1131B247C106900BA6C1B /* SceneDelegate.swift */,
+				BCE1131D247C106900BA6C1B /* ViewController.swift */,
+				BCE1131F247C106900BA6C1B /* Main.storyboard */,
+				BCE11322247C106B00BA6C1B /* Assets.xcassets */,
+				BCE11324247C106B00BA6C1B /* LaunchScreen.storyboard */,
+				BCE11327247C106B00BA6C1B /* Info.plist */,
+			);
+			path = TourConnect;
+			sourceTree = "<group>";
+		};
+		BCE1132F247C106C00BA6C1B /* TourConnectTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11330247C106C00BA6C1B /* TourConnectTests.swift */,
+				BCE11332247C106C00BA6C1B /* Info.plist */,
+			);
+			path = TourConnectTests;
+			sourceTree = "<group>";
+		};
+		BCE1133A247C106C00BA6C1B /* TourConnectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1133B247C106C00BA6C1B /* TourConnectUITests.swift */,
+				BCE1133D247C106C00BA6C1B /* Info.plist */,
+			);
+			path = TourConnectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE11315247C106900BA6C1B /* TourConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE11340247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnect" */;
+			buildPhases = (
+				BCE11312247C106900BA6C1B /* Sources */,
+				BCE11313247C106900BA6C1B /* Frameworks */,
+				BCE11314247C106900BA6C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TourConnect;
+			productName = TourConnect;
+			productReference = BCE11316247C106900BA6C1B /* TourConnect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE1132B247C106C00BA6C1B /* TourConnectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE11343247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnectTests" */;
+			buildPhases = (
+				BCE11328247C106C00BA6C1B /* Sources */,
+				BCE11329247C106C00BA6C1B /* Frameworks */,
+				BCE1132A247C106C00BA6C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE1132E247C106C00BA6C1B /* PBXTargetDependency */,
+			);
+			name = TourConnectTests;
+			productName = TourConnectTests;
+			productReference = BCE1132C247C106C00BA6C1B /* TourConnectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCE11336247C106C00BA6C1B /* TourConnectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE11346247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnectUITests" */;
+			buildPhases = (
+				BCE11333247C106C00BA6C1B /* Sources */,
+				BCE11334247C106C00BA6C1B /* Frameworks */,
+				BCE11335247C106C00BA6C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE11339247C106C00BA6C1B /* PBXTargetDependency */,
+			);
+			name = TourConnectUITests;
+			productName = TourConnectUITests;
+			productReference = BCE11337247C106C00BA6C1B /* TourConnectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE1130E247C106900BA6C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = TonyHoang;
+				TargetAttributes = {
+					BCE11315247C106900BA6C1B = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BCE1132B247C106C00BA6C1B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BCE11315247C106900BA6C1B;
+					};
+					BCE11336247C106C00BA6C1B = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = BCE11315247C106900BA6C1B;
+					};
+				};
+			};
+			buildConfigurationList = BCE11311247C106900BA6C1B /* Build configuration list for PBXProject "TourConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE1130D247C106900BA6C1B;
+			productRefGroup = BCE11317247C106900BA6C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE11315247C106900BA6C1B /* TourConnect */,
+				BCE1132B247C106C00BA6C1B /* TourConnectTests */,
+				BCE11336247C106C00BA6C1B /* TourConnectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE11314247C106900BA6C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE11326247C106B00BA6C1B /* LaunchScreen.storyboard in Resources */,
+				BCE11323247C106B00BA6C1B /* Assets.xcassets in Resources */,
+				BCE11321247C106900BA6C1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE1132A247C106C00BA6C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE11335247C106C00BA6C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE11312247C106900BA6C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE1131E247C106900BA6C1B /* ViewController.swift in Sources */,
+				BCE1131A247C106900BA6C1B /* AppDelegate.swift in Sources */,
+				BCE1131C247C106900BA6C1B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE11328247C106C00BA6C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE11331247C106C00BA6C1B /* TourConnectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE11333247C106C00BA6C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE1133C247C106C00BA6C1B /* TourConnectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE1132E247C106C00BA6C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE11315247C106900BA6C1B /* TourConnect */;
+			targetProxy = BCE1132D247C106C00BA6C1B /* PBXContainerItemProxy */;
+		};
+		BCE11339247C106C00BA6C1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE11315247C106900BA6C1B /* TourConnect */;
+			targetProxy = BCE11338247C106C00BA6C1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE1131F247C106900BA6C1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE11320247C106900BA6C1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE11324247C106B00BA6C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE11325247C106B00BA6C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE1133E247C106C00BA6C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCE1133F247C106C00BA6C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE11341247C106C00BA6C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TourConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE11342247C106C00BA6C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TourConnect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnect;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BCE11344247C106C00BA6C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TourConnectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourConnect.app/TourConnect";
+			};
+			name = Debug;
+		};
+		BCE11345247C106C00BA6C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TourConnectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TourConnect.app/TourConnect";
+			};
+			name = Release;
+		};
+		BCE11347247C106C00BA6C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TourConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TourConnect;
+			};
+			name = Debug;
+		};
+		BCE11348247C106C00BA6C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TourConnectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TourConnect;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE11311247C106900BA6C1B /* Build configuration list for PBXProject "TourConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE1133E247C106C00BA6C1B /* Debug */,
+				BCE1133F247C106C00BA6C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE11340247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE11341247C106C00BA6C1B /* Debug */,
+				BCE11342247C106C00BA6C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE11343247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE11344247C106C00BA6C1B /* Debug */,
+				BCE11345247C106C00BA6C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE11346247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE11347247C106C00BA6C1B /* Debug */,
+				BCE11348247C106C00BA6C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE1130E247C106900BA6C1B /* Project object */;
+}
