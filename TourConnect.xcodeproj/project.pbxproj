@@ -3,18 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47BF3842ADF8D03A9C45513C /* Pods_TourConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE3B28DC88C2AC7A3EAFBE0 /* Pods_TourConnect.framework */; };
 		BCE1131A247C106900BA6C1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11319247C106900BA6C1B /* AppDelegate.swift */; };
-		BCE1131C247C106900BA6C1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1131B247C106900BA6C1B /* SceneDelegate.swift */; };
-		BCE1131E247C106900BA6C1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1131D247C106900BA6C1B /* ViewController.swift */; };
-		BCE11321247C106900BA6C1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE1131F247C106900BA6C1B /* Main.storyboard */; };
 		BCE11323247C106B00BA6C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE11322247C106B00BA6C1B /* Assets.xcassets */; };
 		BCE11326247C106B00BA6C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE11324247C106B00BA6C1B /* LaunchScreen.storyboard */; };
 		BCE11331247C106C00BA6C1B /* TourConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11330247C106C00BA6C1B /* TourConnectTests.swift */; };
 		BCE1133C247C106C00BA6C1B /* TourConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1133B247C106C00BA6C1B /* TourConnectUITests.swift */; };
+		BCE1134D247C144F00BA6C1B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1134B247C144F00BA6C1B /* TabBarController.swift */; };
+		BCE11353247C160800BA6C1B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11352247C160800BA6C1B /* BaseViewController.swift */; };
+		BCE11357247C1E6000BA6C1B /* TCCustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11356247C1E6000BA6C1B /* TCCustomTabBar.swift */; };
+		BCE1135E247C1EBB00BA6C1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1135C247C1EBB00BA6C1B /* HomeViewController.swift */; };
+		BCE1135F247C1EBB00BA6C1B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1135D247C1EBB00BA6C1B /* HomeViewController.xib */; };
+		BCE11362247C1ECF00BA6C1B /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11360247C1ECF00BA6C1B /* ActivityViewController.swift */; };
+		BCE11363247C1ECF00BA6C1B /* ActivityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE11361247C1ECF00BA6C1B /* ActivityViewController.xib */; };
+		BCE11366247C1EE800BA6C1B /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11364247C1EE800BA6C1B /* NotificationViewController.swift */; };
+		BCE11367247C1EE800BA6C1B /* NotificationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE11365247C1EE800BA6C1B /* NotificationViewController.xib */; };
+		BCE1136A247C1EF600BA6C1B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11368247C1EF600BA6C1B /* AccountViewController.swift */; };
+		BCE1136B247C1EF600BA6C1B /* AccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE11369247C1EF600BA6C1B /* AccountViewController.xib */; };
+		BCE1136E247C1F2B00BA6C1B /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1136D247C1F2B00BA6C1B /* UIViewController+.swift */; };
+		BCE11370247C1F5100BA6C1B /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE1136F247C1F5100BA6C1B /* UIView+.swift */; };
+		BCE11372247C1F7100BA6C1B /* UIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11371247C1F7100BA6C1B /* UIImage+.swift */; };
+		BCE11374247C1F8000BA6C1B /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11373247C1F8000BA6C1B /* UIColor+.swift */; };
+		BCE11376247C1FA500BA6C1B /* UIStackView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11375247C1FA500BA6C1B /* UIStackView+.swift */; };
+		BCE11378247C1FBA00BA6C1B /* UITableView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11377247C1FBA00BA6C1B /* UITableView+.swift */; };
+		BCE1137A247C1FD700BA6C1B /* NSObject+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE11379247C1FD700BA6C1B /* NSObject+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4EA5A96808FBE9B02E51C2C6 /* Pods-TourConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourConnect.debug.xcconfig"; path = "Target Support Files/Pods-TourConnect/Pods-TourConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		6CE3B28DC88C2AC7A3EAFBE0 /* Pods_TourConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TourConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11316247C106900BA6C1B /* TourConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TourConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE11319247C106900BA6C1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCE1131B247C106900BA6C1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BCE1131D247C106900BA6C1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BCE11320247C106900BA6C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCE11322247C106B00BA6C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE11325247C106B00BA6C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCE11327247C106B00BA6C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +64,25 @@
 		BCE11337247C106C00BA6C1B /* TourConnectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TourConnectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE1133B247C106C00BA6C1B /* TourConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourConnectUITests.swift; sourceTree = "<group>"; };
 		BCE1133D247C106C00BA6C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE1134B247C144F00BA6C1B /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		BCE11352247C160800BA6C1B /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		BCE11356247C1E6000BA6C1B /* TCCustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCCustomTabBar.swift; sourceTree = "<group>"; };
+		BCE1135C247C1EBB00BA6C1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BCE1135D247C1EBB00BA6C1B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		BCE11360247C1ECF00BA6C1B /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		BCE11361247C1ECF00BA6C1B /* ActivityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityViewController.xib; sourceTree = "<group>"; };
+		BCE11364247C1EE800BA6C1B /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		BCE11365247C1EE800BA6C1B /* NotificationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationViewController.xib; sourceTree = "<group>"; };
+		BCE11368247C1EF600BA6C1B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		BCE11369247C1EF600BA6C1B /* AccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountViewController.xib; sourceTree = "<group>"; };
+		BCE1136D247C1F2B00BA6C1B /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		BCE1136F247C1F5100BA6C1B /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
+		BCE11371247C1F7100BA6C1B /* UIImage+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+.swift"; sourceTree = "<group>"; };
+		BCE11373247C1F8000BA6C1B /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		BCE11375247C1FA500BA6C1B /* UIStackView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+.swift"; sourceTree = "<group>"; };
+		BCE11377247C1FBA00BA6C1B /* UITableView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+.swift"; sourceTree = "<group>"; };
+		BCE11379247C1FD700BA6C1B /* NSObject+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+.swift"; sourceTree = "<group>"; };
+		FC047E5EF0443075E6F0B971 /* Pods-TourConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TourConnect.release.xcconfig"; path = "Target Support Files/Pods-TourConnect/Pods-TourConnect.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BF3842ADF8D03A9C45513C /* Pods_TourConnect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +111,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24AC366FC23ECBE8378D279B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EA5A96808FBE9B02E51C2C6 /* Pods-TourConnect.debug.xcconfig */,
+				FC047E5EF0443075E6F0B971 /* Pods-TourConnect.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D3A416A91E3937C221B1E2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE3B28DC88C2AC7A3EAFBE0 /* Pods_TourConnect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BCE1130D247C106900BA6C1B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +135,8 @@
 				BCE1132F247C106C00BA6C1B /* TourConnectTests */,
 				BCE1133A247C106C00BA6C1B /* TourConnectUITests */,
 				BCE11317247C106900BA6C1B /* Products */,
+				24AC366FC23ECBE8378D279B /* Pods */,
+				8D3A416A91E3937C221B1E2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +154,10 @@
 			isa = PBXGroup;
 			children = (
 				BCE11319247C106900BA6C1B /* AppDelegate.swift */,
-				BCE1131B247C106900BA6C1B /* SceneDelegate.swift */,
-				BCE1131D247C106900BA6C1B /* ViewController.swift */,
-				BCE1131F247C106900BA6C1B /* Main.storyboard */,
+				BCE1136C247C1F1000BA6C1B /* Extensions */,
+				BCE11349247C13E700BA6C1B /* Models */,
+				BCE1134A247C13F100BA6C1B /* Screens */,
+				BCE11351247C15B900BA6C1B /* CustomView */,
 				BCE11322247C106B00BA6C1B /* Assets.xcassets */,
 				BCE11324247C106B00BA6C1B /* LaunchScreen.storyboard */,
 				BCE11327247C106B00BA6C1B /* Info.plist */,
@@ -128,6 +183,108 @@
 			path = TourConnectUITests;
 			sourceTree = "<group>";
 		};
+		BCE11349247C13E700BA6C1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BCE1134A247C13F100BA6C1B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1135B247C1E9600BA6C1B /* Account */,
+				BCE1135A247C1E8C00BA6C1B /* Notification */,
+				BCE11359247C1E8500BA6C1B /* Activity */,
+				BCE11358247C1E7F00BA6C1B /* Home */,
+				BCE11354247C1E3400BA6C1B /* TabBarController */,
+				BCE11350247C15A900BA6C1B /* Base */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BCE11350247C15A900BA6C1B /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11352247C160800BA6C1B /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		BCE11351247C15B900BA6C1B /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		BCE11354247C1E3400BA6C1B /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11355247C1E3D00BA6C1B /* Views */,
+				BCE1134B247C144F00BA6C1B /* TabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		BCE11355247C1E3D00BA6C1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11356247C1E6000BA6C1B /* TCCustomTabBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BCE11358247C1E7F00BA6C1B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1135C247C1EBB00BA6C1B /* HomeViewController.swift */,
+				BCE1135D247C1EBB00BA6C1B /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BCE11359247C1E8500BA6C1B /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11360247C1ECF00BA6C1B /* ActivityViewController.swift */,
+				BCE11361247C1ECF00BA6C1B /* ActivityViewController.xib */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		BCE1135A247C1E8C00BA6C1B /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11364247C1EE800BA6C1B /* NotificationViewController.swift */,
+				BCE11365247C1EE800BA6C1B /* NotificationViewController.xib */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		BCE1135B247C1E9600BA6C1B /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				BCE11368247C1EF600BA6C1B /* AccountViewController.swift */,
+				BCE11369247C1EF600BA6C1B /* AccountViewController.xib */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		BCE1136C247C1F1000BA6C1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BCE1136D247C1F2B00BA6C1B /* UIViewController+.swift */,
+				BCE1136F247C1F5100BA6C1B /* UIView+.swift */,
+				BCE11371247C1F7100BA6C1B /* UIImage+.swift */,
+				BCE11373247C1F8000BA6C1B /* UIColor+.swift */,
+				BCE11375247C1FA500BA6C1B /* UIStackView+.swift */,
+				BCE11377247C1FBA00BA6C1B /* UITableView+.swift */,
+				BCE11379247C1FD700BA6C1B /* NSObject+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCE11340247C106C00BA6C1B /* Build configuration list for PBXNativeTarget "TourConnect" */;
 			buildPhases = (
+				B79740130EEBA8C35970701C /* [CP] Check Pods Manifest.lock */,
 				BCE11312247C106900BA6C1B /* Sources */,
 				BCE11313247C106900BA6C1B /* Frameworks */,
 				BCE11314247C106900BA6C1B /* Resources */,
+				6E5793946770A0AA167F49F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,9 +391,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE11367247C1EE800BA6C1B /* NotificationViewController.xib in Resources */,
 				BCE11326247C106B00BA6C1B /* LaunchScreen.storyboard in Resources */,
 				BCE11323247C106B00BA6C1B /* Assets.xcassets in Resources */,
-				BCE11321247C106900BA6C1B /* Main.storyboard in Resources */,
+				BCE1135F247C1EBB00BA6C1B /* HomeViewController.xib in Resources */,
+				BCE1136B247C1EF600BA6C1B /* AccountViewController.xib in Resources */,
+				BCE11363247C1ECF00BA6C1B /* ActivityViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +416,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6E5793946770A0AA167F49F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TourConnect/Pods-TourConnect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TourConnect/Pods-TourConnect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TourConnect/Pods-TourConnect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B79740130EEBA8C35970701C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TourConnect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BCE11312247C106900BA6C1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE1131E247C106900BA6C1B /* ViewController.swift in Sources */,
+				BCE1134D247C144F00BA6C1B /* TabBarController.swift in Sources */,
+				BCE11353247C160800BA6C1B /* BaseViewController.swift in Sources */,
+				BCE1136E247C1F2B00BA6C1B /* UIViewController+.swift in Sources */,
+				BCE11378247C1FBA00BA6C1B /* UITableView+.swift in Sources */,
+				BCE11366247C1EE800BA6C1B /* NotificationViewController.swift in Sources */,
 				BCE1131A247C106900BA6C1B /* AppDelegate.swift in Sources */,
-				BCE1131C247C106900BA6C1B /* SceneDelegate.swift in Sources */,
+				BCE11362247C1ECF00BA6C1B /* ActivityViewController.swift in Sources */,
+				BCE11376247C1FA500BA6C1B /* UIStackView+.swift in Sources */,
+				BCE11357247C1E6000BA6C1B /* TCCustomTabBar.swift in Sources */,
+				BCE11370247C1F5100BA6C1B /* UIView+.swift in Sources */,
+				BCE11372247C1F7100BA6C1B /* UIImage+.swift in Sources */,
+				BCE11374247C1F8000BA6C1B /* UIColor+.swift in Sources */,
+				BCE1137A247C1FD700BA6C1B /* NSObject+.swift in Sources */,
+				BCE1135E247C1EBB00BA6C1B /* HomeViewController.swift in Sources */,
+				BCE1136A247C1EF600BA6C1B /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +513,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BCE1131F247C106900BA6C1B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BCE11320247C106900BA6C1B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BCE11324247C106B00BA6C1B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,16 +640,21 @@
 		};
 		BCE11341247C106C00BA6C1B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EA5A96808FBE9B02E51C2C6 /* Pods-TourConnect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H2HK7VYTGX;
 				INFOPLIST_FILE = TourConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TourConnect;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,16 +662,21 @@
 		};
 		BCE11342247C106C00BA6C1B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC047E5EF0443075E6F0B971 /* Pods-TourConnect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = H2HK7VYTGX;
 				INFOPLIST_FILE = TourConnect/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = TonyHoang.TourConnect;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TourConnect;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
